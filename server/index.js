@@ -11,5 +11,5 @@
 const app = require('./middlewares/express');
 
 // Constants
-const PORT = 3080;
+const PORT = 80;
 app.listen(PORT);

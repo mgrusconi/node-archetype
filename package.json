@@ -7,8 +7,8 @@
     "clean": "rm -Rf built",
     "test": "./node_modules/.bin/mocha --timeout 5000 test",
     "test:watch": "./node_modules/.bin/mocha --timeout 5000 --watch",
-    "start_dev": "nodemon ./server/index.js > ./logs/my_app_log.log 2> ./logs/my_app_err.log",
-    "start_prod": "node ./built/index.js"
+    "start_dev": "nodemon ./server/index.js",
+    "start_prod": "node ./built/index.js > ./logs/my_app_log.log 2> ./logs/my_app_err.log"
   },
   "author": "Marcelo Rusconi",
   "license": "MIT",

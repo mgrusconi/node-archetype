@@ -8,7 +8,7 @@
  * @author Marcelo G. Rusconi <mgrusconi@gmail.com>
  */
 
-const express = require('express2');
+const express = require('express');
 const swaggerConfig = require('./swagger');
 const swaggerUi = require('swagger-ui-express');
 const routings = require('../modules/v1/app/app-routing');
