@@ -1,5 +1,6 @@
 #!/bin/sh
 
-rm -rf node_modules/
+npm i -D --global gulp
 npm install
-npm start
+npm install -g nodemon
+npm run start_dev

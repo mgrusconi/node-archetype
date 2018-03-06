@@ -1,1 +1,1 @@
-# node-archetype
+# Node Archetipe
