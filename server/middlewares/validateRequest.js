@@ -10,7 +10,7 @@
 
 const config = require('../config/');
 
-module.exports = function(req,res,next){
+module.exports = (req,res,next) => {
   let key = (req.body && req.body.x_key) || (req.query && req.query.x_key) || req.headers['x-key'];
 
   if(key && key === config.security.api_key) {
